@@ -166,9 +166,9 @@ comment:
     client_id: d6c525d039e16608a3be
     client_secret: 90d127f7224242cefac3ab0c548ea17c1ad9ca25
     repo: blog-comment
-    owner: you_github_name
+    owner: heyenai
     admin:
-        - you_github_name
+        - heyenai
     per_page: 20                    # 可选填
     distraction_free_mode: false    # 可选填
     pager_direction: last           # 可选填
@@ -413,3 +413,9 @@ providers:
     fontcdn: google
     # Name or URL of the fontawesome icon font CDN provider
     iconcdn: loli
+# github 静态资源加速
+blogcdn:
+    # cdn:
+    cdn: https://cdn.jsdelivr.net/gh/${ repo }@${ version }/${ filename }
+    repo: heyenai/heyenai.github.io
+    version: version_str
