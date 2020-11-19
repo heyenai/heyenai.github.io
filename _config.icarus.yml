@@ -106,6 +106,14 @@ navbar:
         About: /about
     # Links to be shown on the right of the navigation bar
     links:
+        Archives:
+            icon: fas fa-archive
+            url: /archives
+            target: _self
+        Tags:
+            icon: fas fa-tag
+            url: /tags
+            target: _self
         GitHub:
             icon: fab fa-github
             url: 'https://github.com/heyenai'
