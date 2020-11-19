@@ -11720,3 +11720,8 @@ a.navbar-item {
 a.navbar-item:hover {
   background-color: unset;
 }
+.card + .more {
+  margin-top: 1.5em;
+  text-align: right;
+  opacity: 0.68;
+}
