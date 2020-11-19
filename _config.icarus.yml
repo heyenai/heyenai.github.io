@@ -427,3 +427,5 @@ blogcdn:
     cdn: https://cdn.jsdelivr.net/gh/${ repo }@${ version }/${ filename }
     repo: heyenai/heyenai.github.io
     version: version_str
+    # version: ac6c7d38
+    
